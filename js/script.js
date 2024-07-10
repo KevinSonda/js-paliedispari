@@ -17,3 +17,6 @@
 
  // dischiaro la variabile che dovra contenere la parola dell'utente e gli assegno il prompt
  let word = prompt('Inserisci la parola da verificare')
+
+ // chiamo la funzione 
+ check_palindroma(word.toLowerCase());
