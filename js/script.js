@@ -5,4 +5,12 @@
 
     // prendo la parola passata come parametro e la splitto la inverto e riunisci i caratteri
     check_palindroma = string.split('').reverse().join('');
+
+    // verifico se il contenuto della variabile e uguale alla string
+    if (check_palindroma.toLowerCase() === string.toLowerCase()){
+        console.log('La stringa e palindroma');
+    }
+    else {
+        console.log('La stringa non e palindroma')
+    }
  }
