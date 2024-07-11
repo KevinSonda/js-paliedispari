@@ -13,3 +13,6 @@ function checkEvenOrOdd(sum) {
     return 'dispari';
 }
 
+// dichiaro la variabile con il prompt per contenere pari o dispari
+let even_or_odd = prompt('Inserisci "pari" o "dispari"');
+
