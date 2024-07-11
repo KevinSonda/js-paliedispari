@@ -33,3 +33,14 @@ while (number < 1 || number > 5 || isNaN(number)){
 let pc_number = generateRandomNumber();
 console.log(pc_number);
 
+//eseguo la somma dei due numeri 
+let sum = number + pc_number;
+console.log(sum);
+
+// verifico che il risultato restituito dalla funzione abbiano lo stesso valore 
+if (even_or_odd.toLowerCase() === checkEvenOrOdd(sum)) {
+    console.log('Hai vinto')
+}
+else {
+    console.log('Hai perso')
+}
