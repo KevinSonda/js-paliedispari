@@ -16,3 +16,8 @@ function checkEvenOrOdd(sum) {
 // dichiaro la variabile con il prompt per contenere pari o dispari
 let even_or_odd = prompt('Inserisci "pari" o "dispari"');
 
+//controlliamo che il valore sia corretto 
+while (even_or_odd != 'pari' && even_or_odd != 'dispari') {
+    even_or_odd = prompt('Devi inserire un valore tra "pari" e "dispari" reinserisci di nuovo')
+}
+
