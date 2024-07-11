@@ -21,3 +21,11 @@ while (even_or_odd != 'pari' && even_or_odd != 'dispari') {
     even_or_odd = prompt('Devi inserire un valore tra "pari" e "dispari" reinserisci di nuovo')
 }
 
+//dichiaro la variabile che conterra il valore numerico compreso tra 1 e 5 inserito tramite prompt
+let number = prompt('Inserisci un valore compreso tra 1 e 5');
+//controlliamo che il valore inserito sia un numero tra 1 e 5
+console.log(number);
+while (number < 1 || number > 5 || isNaN(number)){
+    number = parseInt(prompt('Devi inserire un valore compreso tra 1 e 5. Reinseriscilo di nuovo'));
+}
+
