@@ -29,3 +29,7 @@ while (number < 1 || number > 5 || isNaN(number)){
     number = parseInt(prompt('Devi inserire un valore compreso tra 1 e 5. Reinseriscilo di nuovo'));
 }
 
+//genero il numero per il computer richiamando la funzione generateRandomNumber
+let pc_number = generateRandomNumber();
+console.log(pc_number);
+
